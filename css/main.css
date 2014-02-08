@@ -1,10 +1,10 @@
-.body {
+ body {
   width: 100%;
 }
 
 .wrapper {
-  width: 929px;
-  min-width: 939px;
+  width: 900px;
+  min-width: 900px;
   margin: auto;
   margin-top: 100px;
   text-align: center;
@@ -13,11 +13,27 @@
 p {
   padding: 1.2em .5em;
   font-size: 3.7em;
+  display: inline;
+}
+
+.subsite-links {
+  position:relative;
+  top: -270px;
+}
+
+.interiors {
   float: left;
 }
 
+.jewelry {
+  float: right;
+}
+
 .logo {
-  float: left;
+  display: inline-block;
+  background-image: url(../static/ad-logo.png);
+  width: 400px;
+  height: 284px;
 }
 
 .clear-float {
