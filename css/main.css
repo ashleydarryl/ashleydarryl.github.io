@@ -3,37 +3,42 @@
 }
 
 .wrapper {
-  width: 900px;
-  min-width: 900px;
+  width: 800px;
+  min-width: 800px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 2em;
   text-align: center;
 }
 
 p {
-  padding: 1.2em .5em;
-  font-size: 3.7em;
-  display: inline;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 0.4em;
+  font-size: 1.8em;
+  color: #335566;
+
 }
 
 .subsite-links {
-  position:relative;
-  top: -270px;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding-bottom: 3em;
 }
 
-.interiors {
-  float: left;
+.sub-box {
+  width: 375px;
+  display: inline-block;
+  /* float: left; */
 }
 
 .jewelry {
-  float: right;
+  /*float: right; */
 }
 
 .logo {
   display: inline-block;
-  background-image: url(../static/ad-logo.png);
-  width: 400px;
-  height: 284px;
+  background-image: url(../static/ad-logo-new.png);
+  width: 100px;
+  height: 78px;
 }
 
 .clear-float {
@@ -42,11 +47,11 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #444;
 }
 
 a:visited {
-  color: #000000;
+  color: #444;
   text-decoration: none;
 }
 
